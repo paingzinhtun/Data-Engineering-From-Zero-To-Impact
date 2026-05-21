@@ -1,0 +1,96 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: Cleaned retail sales records from POS and ecommerce sources.
+    columns:
+      - name: sale_id
+        description: Source sale identifier.
+        tests:
+          - not_null
+      - name: sale_line_id
+        description: Unique sale line identifier.
+        tests:
+          - not_null
+          - unique
+      - name: product_id
+        description: Source product identifier.
+        tests:
+          - not_null
+      - name: customer_id
+        description: Source customer identifier.
+        tests:
+          - not_null
+      - name: sales_channel
+        description: Channel where the sale happened.
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["store", "online"]
+
+  - name: dim_product
+    description: Product dimension for retail analytics.
+    columns:
+      - name: product_key
+        tests:
+          - not_null
+          - unique
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+      - name: product_category
+        tests:
+          - not_null
+
+  - name: dim_customer
+    description: Customer dimension for retail analytics.
+    columns:
+      - name: customer_key
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_sales
+    description: One row per retail sale line.
+    columns:
+      - name: sale_line_id
+        tests:
+          - not_null
+          - unique
+      - name: product_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref("dim_product")
+              field: product_key
+      - name: customer_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref("dim_customer")
+              field: customer_key
+      - name: quantity_sold
+        tests:
+          - not_null
+      - name: revenue
+        tests:
+          - not_null
+
+  - name: mart_daily_sales
+    description: Daily retail sales metrics.
+    columns:
+      - name: sales_date
+        tests:
+          - not_null
+          - unique
+      - name: revenue
+        tests:
+          - not_null
+      - name: gross_profit
+        tests:
+          - not_null

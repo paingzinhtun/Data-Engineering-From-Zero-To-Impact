@@ -1,0 +1,8 @@
+product_id,product_name,category,unit_cost,unit_price
+P-001,A5 Notebook,Notebooks,2.20,4.00
+P-002,Blue Ballpoint Pen,Pens,0.60,1.50
+P-003,Document Folder,Filing,1.10,2.50
+P-004,Desk Calculator,Office Equipment,7.50,12.00
+P-005,Printer Paper Ream,Paper,5.20,8.00
+P-006,Stapler,Office Equipment,8.50,15.00
+P-007,Sticky Notes Pack,Paper,2.75,6.00
