@@ -40,6 +40,7 @@ This project follows a simple changelog format during its early foundation stage
 - Resources section with books, courses, official docs, tools, datasets, and communities guides focused on practical learning and project support.
 - Repository navigation improvements with a root Start Here guide, major section index, roadmap section links, folder entry paths, previous/next navigation, and concept-to-project cross-links.
 - Senior review improvements including a beginner project index, roadmap expansion backlog, safer project `.gitignore`, stronger retail pipeline SQL modeling, added customer-reference validation, and expanded quality checks.
+- Main README presentation improvements with badges, stronger opening, visual learning flow, learner path table, clearer project track summary, differentiation table, and linked featured project showcase.
 
 ## Versioning Notes
 

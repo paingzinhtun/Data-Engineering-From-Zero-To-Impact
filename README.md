@@ -1,12 +1,45 @@
 # Data Engineering From Zero To Impact
 
-## A practical roadmap, knowledge base, project lab, and portfolio system for modern Data Engineering
+## Build reliable data systems from fundamentals to real business impact
 
-Data Engineering is not just about learning tools. It is about turning raw, unreliable, scattered data into trusted systems that support decisions, operations, analytics, automation, and AI.
+![Learning Path](https://img.shields.io/badge/Learning%20Path-Beginner%20to%20Professional-2563eb)
+![Focus](https://img.shields.io/badge/Focus-Production%20Data%20Engineering-16a34a)
+![Projects](https://img.shields.io/badge/Projects-Retail%20%7C%20SME%20%7C%20AI--Ready-f97316)
+![License](https://img.shields.io/badge/License-MIT-111827)
 
-This repository is designed as a one-stop learning and building path for people who want to grow from beginner level to professional Data Engineering capability through fundamentals, real-world business problems, production thinking, and portfolio-grade projects.
+Data Engineering is not just about learning tools. It is the practice of turning raw, unreliable, scattered data into trusted systems that support decisions, operations, analytics, automation, and AI.
+
+This repository is a practical roadmap, knowledge base, project lab, and portfolio system for learners who want to grow from beginner level to professional Data Engineering capability.
 
 > Tools change. Fundamentals remain.
+
+## What You Will Build
+
+By following this repo, you will learn how to build data systems that look like real work:
+
+| Area | What You Build |
+| --- | --- |
+| SQL and databases | Retail schemas, sales analysis, joins, windows, indexes, and validation queries |
+| Python pipelines | CSV/API extractors, cleaning logic, logging, error handling, tests, and PostgreSQL loads |
+| Data modeling | Relational models, star schemas, facts, dimensions, metrics, and marts |
+| Production habits | Environment config, Docker Compose, data quality checks, retries, docs, and runbooks |
+| Portfolio projects | Beginner, intermediate, advanced, and capstone projects with business impact |
+| AI-ready data | RAG ingestion, document processing, vector database concepts, governed AI data access |
+
+## Learning System At A Glance
+
+```mermaid
+flowchart LR
+    A[Fundamentals] --> B[SQL + Python]
+    B --> C[Data Modeling]
+    C --> D[ETL/ELT Pipelines]
+    D --> E[Warehousing + dbt]
+    E --> F[Quality + Observability]
+    F --> G[Cloud + Production]
+    G --> H[Streaming + Big Data]
+    H --> I[AI-Ready Data]
+    I --> J[Portfolio + Career]
+```
 
 ## Start Here
 
@@ -21,20 +54,30 @@ If you are new to the repository, use this order:
 
 Recommended first project: [17-projects/beginner/04-retail-sales-pipeline/](17-projects/beginner/04-retail-sales-pipeline/).
 
+## Choose Your Path
+
+| If you are... | Start with | Then build |
+| --- | --- | --- |
+| New to data engineering | [00-introduction/](00-introduction/) and [01-fundamentals/](01-fundamentals/) | [CSV To PostgreSQL](17-projects/beginner/01-csv-to-postgres/) |
+| Comfortable with spreadsheets or BI | [02-sql-and-databases/](02-sql-and-databases/) and [04-data-modeling/](04-data-modeling/) | [SQL Sales Analysis](17-projects/beginner/03-sql-sales-analysis/) |
+| Learning Python automation | [03-python-for-data-engineering/](03-python-for-data-engineering/) and [05-etl-elt-pipelines/](05-etl-elt-pipelines/) | [Retail Sales Pipeline](17-projects/beginner/04-retail-sales-pipeline/) |
+| Preparing for portfolio projects | [17-projects/](17-projects/) and [18-templates/](18-templates/) | [Retail Sales Warehouse](17-projects/intermediate/02-retail-sales-warehouse/) |
+| Exploring AI-ready data | [15-ai-ready-data-engineering/](15-ai-ready-data-engineering/) | [AI-Ready Data Platform](17-projects/advanced/05-ai-ready-data-platform/) |
+
 ## Repository Guide
 
 | Section | Purpose |
 | --- | --- |
-| [00-introduction/](00-introduction/) | Orientation, data engineering roles, modern stack, and how to use this repo |
-| [01-fundamentals/](01-fundamentals/) | Command line, Git, APIs, files, Docker, and foundational computing concepts |
+| [00-introduction/](00-introduction/) | Start here: roles, modern data stack, and how to use the repo |
+| [01-fundamentals/](01-fundamentals/) | Command line, Git, APIs, files, Docker, and computing basics |
 | [02-sql-and-databases/](02-sql-and-databases/) | SQL, joins, windows, indexes, transactions, and PostgreSQL practice |
-| [03-python-for-data-engineering/](03-python-for-data-engineering/) | Python for files, APIs, pipelines, logging, testing, and loading databases |
-| [04-data-modeling/](04-data-modeling/) | Relational, dimensional, facts, dimensions, SCDs, and metrics |
+| [03-python-for-data-engineering/](03-python-for-data-engineering/) | Python for files, APIs, pipelines, logging, testing, and database loads |
+| [04-data-modeling/](04-data-modeling/) | Relational models, dimensional models, facts, dimensions, and metrics |
 | [05-etl-elt-pipelines/](05-etl-elt-pipelines/) | ETL/ELT, batch, incremental loading, idempotency, validation, and patterns |
 | [06-data-warehousing/](06-data-warehousing/) | Warehouse concepts, marts, partitioning, BigQuery, Snowflake, and Redshift |
 | [07-data-lake-and-lakehouse/](07-data-lake-and-lakehouse/) | Data lakes, Bronze/Silver/Gold, Parquet, Delta Lake, and Iceberg |
 | [08-orchestration/](08-orchestration/) | Airflow, DAGs, scheduling, backfills, retries, alerts, and monitoring |
-| [09-dbt-and-analytics-engineering/](09-dbt-and-analytics-engineering/) | dbt models, tests, docs, sources, seeds, and project structure |
+| [09-dbt-and-analytics-engineering/](09-dbt-and-analytics-engineering/) | dbt models, tests, docs, sources, seeds, and analytics engineering |
 | [10-big-data-processing/](10-big-data-processing/) | Distributed computing, Spark, PySpark, optimization, partitions, and shuffling |
 | [11-streaming-data/](11-streaming-data/) | Kafka, streaming concepts, event time, late data, and checkpoints |
 | [12-data-quality-testing-observability/](12-data-quality-testing-observability/) | Validation, quality tools, monitoring, alerting, and observability |
@@ -42,11 +85,32 @@ Recommended first project: [17-projects/beginner/04-retail-sales-pipeline/](17-p
 | [14-production-engineering/](14-production-engineering/) | Deployment, CI/CD, secrets, logging, alerting, and production readiness |
 | [15-ai-ready-data-engineering/](15-ai-ready-data-engineering/) | Feature pipelines, RAG, vector databases, documents, agents, and governance |
 | [16-business-use-cases/](16-business-use-cases/) | Retail, inventory, customer analytics, finance, ecommerce, logistics, and SMEs |
-| [17-projects/](17-projects/) | Beginner, intermediate, advanced, and capstone projects |
-| [18-templates/](18-templates/) | README, architecture, pipeline, Airflow, dbt, Docker, and checklist templates |
+| [17-projects/](17-projects/) | Project labs from beginner to capstone |
+| [18-templates/](18-templates/) | Reusable README, architecture, pipeline, dbt, Docker, and checklist templates |
 | [19-interview-and-career/](19-interview-and-career/) | Career roadmap, interviews, system design, portfolio, resume, and role levels |
 | [20-real-world-case-studies/](20-real-world-case-studies/) | Business-focused case studies that connect systems to impact |
-| [resources/](resources/) | Books, courses, docs, tools, datasets, and communities |
+| [resources/](resources/) | Books, courses, official docs, tools, datasets, and communities |
+
+## Project Tracks
+
+| Level | Track | What It Proves |
+| --- | --- | --- |
+| Beginner | [17-projects/beginner/](17-projects/beginner/) | You can load, query, clean, validate, and document simple business data |
+| Intermediate | [17-projects/intermediate/](17-projects/intermediate/) | You can design portfolio-grade ETL, warehouse, dbt, inventory, and Airflow projects |
+| Advanced | [17-projects/advanced/](17-projects/advanced/) | You can reason about lakehouse, Spark, Kafka, cloud warehouse, and AI-ready architecture |
+| Capstone | [17-projects/capstone/](17-projects/capstone/) | You can present complete systems with business impact, governance, cost, and scale |
+
+## What Makes This Different
+
+This is not a list of random tutorials. It is built as a practical learning system:
+
+| Principle | How It Shows Up |
+| --- | --- |
+| Fundamentals first | SQL, Python, files, APIs, modeling, and quality come before tool specialization |
+| Business context | Examples focus on retail, inventory, ecommerce, SMEs, customer analytics, and operations |
+| Production habits | Projects include setup, validation, logging, documentation, quality checks, and tradeoffs |
+| Portfolio thinking | Each project is designed to explain a business problem, architecture, data model, and impact |
+| Modern readiness | The roadmap includes cloud, orchestration, dbt, Spark, Kafka, observability, and AI-ready data |
 
 ## Mission
 
@@ -225,66 +289,16 @@ Goal: prepare data that AI systems can use responsibly and effectively.
 
 ## Featured Projects
 
-The project lab will grow over time. The initial portfolio direction should prioritize practical, business-centered projects such as:
+The project lab is organized around business problems that a learner can explain in interviews and portfolio reviews.
 
-### Retail Sales and Inventory Warehouse
-
-Build a pipeline that ingests sales, product, supplier, and inventory data; cleans and models it; and produces analytics-ready tables for stockouts, revenue, margins, reorder needs, and slow-moving products.
-
-Core skills:
-
-- SQL modeling
-- Batch ingestion
-- Dimensional modeling
-- Data quality checks
-- Business KPI design
-
-### Customer 360 for a Small Business
-
-Combine customer, transaction, support, and marketing data into a trusted customer profile layer. Use it to answer questions about retention, repeat purchase behavior, segmentation, and customer value.
-
-Core skills:
-
-- Entity resolution basics
-- Data cleaning
-- Aggregation logic
-- Privacy-aware data handling
-- Analytics engineering
-
-### Operations KPI Pipeline
-
-Create an automated pipeline that turns raw operational logs or spreadsheets into reliable metrics for daily business review.
-
-Core skills:
-
-- File ingestion
-- Scheduling
-- Validation
-- Exception reporting
-- Documentation
-
-### Supplier Performance Analytics
-
-Track supplier delivery reliability, defect rates, lead times, cost changes, and purchase order fulfillment.
-
-Core skills:
-
-- Relational modeling
-- Time-based metrics
-- Data quality rules
-- Business process analysis
-
-### AI-Ready Product Knowledge Base
-
-Prepare product, policy, FAQ, and support content for search, retrieval, and AI assistant use.
-
-Core skills:
-
-- Document parsing
-- Metadata design
-- Chunking strategy
-- Data validation
-- Retrieval evaluation basics
+| Project | Business Question | Core Skills |
+| --- | --- | --- |
+| [Retail Sales Pipeline](17-projects/beginner/04-retail-sales-pipeline/) | Are sales, margin, customer, and inventory records clean enough for decision-making? | CSV ingestion, pandas, PostgreSQL, SQL transformations, tests, quality checks |
+| [Retail Sales Warehouse](17-projects/intermediate/02-retail-sales-warehouse/) | Which products, categories, and customers drive revenue and profit? | Dimensional modeling, warehouse layers, marts, KPI design |
+| [Inventory Reorder Pipeline](17-projects/intermediate/03-inventory-reorder-pipeline/) | What should the business reorder before stockouts hurt sales? | Inventory metrics, reorder logic, exception reporting, data validation |
+| [Lakehouse Bronze/Silver/Gold](17-projects/advanced/01-lakehouse-bronze-silver-gold/) | How should large raw data be cleaned and promoted into trusted business layers? | Data lake architecture, Parquet, partitioning, governance, scalable processing |
+| [Kafka Sales Events Pipeline](17-projects/advanced/03-kafka-streaming-sales-events/) | How can a business monitor sales events in near real time? | Events, topics, consumers, offsets, stream processing, alerts |
+| [AI Business Analytics Assistant](17-projects/capstone/ai-business-analytics-assistant/) | How can leaders ask business questions safely using governed data and AI? | Semantic layer, data API, access control, AI-ready data, business answers |
 
 ## How To Use This Repo
 
