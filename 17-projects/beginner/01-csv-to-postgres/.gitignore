@@ -1,0 +1,36 @@
+# PostgreSQL / SQL local files
+*.backup
+*.dump
+*.sql~
+
+# Temporary database exports
+exports/
+tmp/
+temp/
+
+# Large or generated CSV files
+*.csv.tmp
+*.csv.bak
+
+# Keep source CSV files, but ignore common spreadsheet lock files
+~$*
+*.lock
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+

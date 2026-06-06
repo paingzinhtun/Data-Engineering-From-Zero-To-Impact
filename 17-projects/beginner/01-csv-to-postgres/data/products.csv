@@ -1,0 +1,121 @@
+product_id,product_name,category,brand,cost_price,selling_price,stock_quantity,reorder_level,supplier_name,is_active
+1,Blue Ballpoint Pen,Writing,Pilot,350,500,120,30,Yangon Stationery Supply,true
+2,Black Ballpoint Pen,Writing,Pilot,350,500,95,30,Yangon Stationery Supply,true
+3,Red Ballpoint Pen,Writing,Pilot,350,500,40,25,Yangon Stationery Supply,true
+4,Black Gel Pen,Writing,Zebra,700,1000,45,25,Mandalay Office Mart,true
+5,Blue Gel Pen,Writing,Zebra,700,1000,24,25,Mandalay Office Mart,true
+6,Red Gel Pen,Writing,Zebra,700,1000,18,20,Mandalay Office Mart,true
+7,HB Pencil Pack,Writing,Faber Castell,1200,1800,20,20,Yangon School Supplies,true
+8,2B Pencil Pack,Writing,Faber Castell,1300,1900,38,20,Yangon School Supplies,true
+9,Mechanical Pencil,Writing,Uni,1800,2500,15,20,Mandalay Office Mart,true
+10,Mechanical Pencil Lead,Writing,Uni,900,1500,32,15,Mandalay Office Mart,true
+11,Whiteboard Marker Black,Writing,Pentel,1200,1800,28,15,Yangon Office Depot,true
+12,Whiteboard Marker Blue,Writing,Pentel,1200,1800,14,15,Yangon Office Depot,true
+13,Whiteboard Marker Red,Writing,Pentel,1200,1800,9,15,Yangon Office Depot,true
+14,Permanent Marker Black,Writing,Artline,1400,2200,26,12,Yangon Stationery Supply,true
+15,Permanent Marker Blue,Writing,Artline,1400,2200,11,12,Yangon Stationery Supply,true
+16,Highlighter Yellow,Writing,Stabilo,1600,2500,55,20,Yangon School Supplies,true
+17,Highlighter Green,Writing,Stabilo,1600,2500,18,20,Yangon School Supplies,true
+18,Highlighter Pink,Writing,Stabilo,1600,2500,16,20,Yangon School Supplies,true
+19,Fountain Pen,Writing,Hero,4500,7000,7,8,Mandalay Office Mart,true
+20,Ink Bottle Blue,Writing,Hero,2500,3800,10,8,Mandalay Office Mart,true
+21,A4 Copy Paper Pack,Paper,Double A,8500,10500,18,15,Yangon Paper World,true
+22,A4 Copy Paper Carton,Paper,Double A,82000,98000,6,5,Yangon Paper World,true
+23,A5 Notebook,Paper,Campus,900,1500,60,25,Yangon Stationery Supply,true
+24,A4 Notebook,Paper,Campus,1400,2200,35,20,Yangon Stationery Supply,true
+25,Exercise Book Small,Paper,Local Brand,500,900,90,40,Yangon School Supplies,true
+26,Exercise Book Large,Paper,Local Brand,800,1300,42,30,Yangon School Supplies,true
+27,Sticky Notes Yellow,Paper,Post-it,1800,2500,12,15,Yangon Office Depot,true
+28,Sticky Notes Pink,Paper,Post-it,1800,2500,9,15,Yangon Office Depot,true
+29,Graph Paper Pad,Paper,Local Brand,1000,1600,9,10,Mandalay Paper House,true
+30,Drawing Paper Pad,Paper,Canson,3200,4800,13,10,Mandalay Paper House,true
+31,Colored Paper Pack,Paper,Local Brand,2500,3800,21,15,Yangon Paper World,true
+32,Photo Paper Pack,Paper,Epson,6500,9000,8,10,Yangon Paper World,true
+33,Index Card Pack,Paper,Local Brand,1200,2000,30,15,Yangon School Supplies,true
+34,Envelope Small Pack,Paper,Local Brand,900,1500,48,20,Yangon Paper World,true
+35,Envelope Large Pack,Paper,Local Brand,1500,2400,17,20,Yangon Paper World,true
+36,File Divider Paper,Paper,Deli,1800,2800,19,15,Mandalay Office Mart,true
+37,Receipt Book,Paper,Local Brand,1000,1700,36,15,Yangon Stationery Supply,true
+38,Carbon Paper Pack,Paper,Kores,2200,3500,10,12,Mandalay Paper House,true
+39,Label Sticker Sheet,Paper,Avery,2800,4200,16,10,Yangon Office Depot,true
+40,Brown Kraft Paper Roll,Paper,Local Brand,3500,5200,5,8,Mandalay Paper House,true
+41,Stapler Small,Office Tools,Max,4500,6500,14,10,Yangon Office Depot,true
+42,Stapler Large,Office Tools,Max,8500,12000,6,8,Yangon Office Depot,true
+43,Staple Pins Box,Office Tools,Max,700,1200,35,20,Yangon Office Depot,true
+44,Paper Clips Box,Office Tools,Local Brand,500,900,22,20,Mandalay Office Mart,true
+45,Binder Clips Small,Office Tools,Deli,1200,2000,28,15,Mandalay Office Mart,true
+46,Binder Clips Medium,Office Tools,Deli,1800,2800,12,15,Mandalay Office Mart,true
+47,Binder Clips Large,Office Tools,Deli,2500,3800,7,10,Mandalay Office Mart,true
+48,Scissors Small,Office Tools,Deli,2500,3800,8,12,Yangon Stationery Supply,true
+49,Scissors Large,Office Tools,Deli,3500,5200,11,10,Yangon Stationery Supply,true
+50,Paper Cutter,Office Tools,Deli,2800,4500,10,8,Yangon Office Depot,true
+51,Desk Tape Dispenser,Office Tools,Deli,4200,6500,9,8,Yangon Office Depot,true
+52,Transparent Tape Roll,Office Tools,Local Brand,600,1000,50,25,Yangon Stationery Supply,true
+53,Double Sided Tape,Office Tools,Local Brand,1000,1600,16,20,Yangon Stationery Supply,true
+54,Glue Stick,Office Tools,UHU,1200,2000,24,20,Yangon School Supplies,true
+55,Liquid Glue,Office Tools,UHU,1500,2400,18,15,Yangon School Supplies,true
+56,Calculator Basic,Office Tools,Casio,9500,13500,12,8,Mandalay Office Mart,true
+57,Calculator Scientific,Office Tools,Casio,18000,24500,5,6,Mandalay Office Mart,true
+58,Hole Punch,Office Tools,Kangaro,5500,8000,6,8,Yangon Office Depot,true
+59,Stamp Pad Blue,Office Tools,Shiny,1800,2800,13,10,Yangon Office Depot,true
+60,Date Stamp,Office Tools,Shiny,6000,8500,4,6,Yangon Office Depot,true
+61,Watercolor Set,Art Supplies,Pentel,5500,7800,10,8,Yangon Art Center,true
+62,Oil Pastel Set,Art Supplies,Pentel,4200,6500,16,10,Yangon Art Center,true
+63,Color Pencil Set,Art Supplies,Faber Castell,4800,7000,6,10,Mandalay Art Supply,true
+64,Crayon Set,Art Supplies,Faber Castell,3200,5000,25,12,Mandalay Art Supply,true
+65,Sketch Book A4,Art Supplies,Local Brand,2200,3500,25,10,Yangon Art Center,true
+66,Sketch Book A3,Art Supplies,Local Brand,3800,5800,9,10,Yangon Art Center,true
+67,Acrylic Paint Tube Red,Art Supplies,Marie,1800,2800,5,8,Mandalay Art Supply,true
+68,Acrylic Paint Tube Blue,Art Supplies,Marie,1800,2800,7,8,Mandalay Art Supply,true
+69,Acrylic Paint Tube Yellow,Art Supplies,Marie,1800,2800,8,8,Mandalay Art Supply,true
+70,Paint Brush Small,Art Supplies,Mont Marte,1200,2000,22,10,Yangon Art Center,true
+71,Paint Brush Medium,Art Supplies,Mont Marte,1800,3000,14,10,Yangon Art Center,true
+72,Paint Brush Large,Art Supplies,Mont Marte,2500,4000,8,10,Yangon Art Center,true
+73,Palette Plastic,Art Supplies,Local Brand,1000,1800,18,10,Mandalay Art Supply,true
+74,Canvas Board Small,Art Supplies,Local Brand,3500,5500,11,8,Yangon Art Center,true
+75,Canvas Board Medium,Art Supplies,Local Brand,5200,7800,6,8,Yangon Art Center,true
+76,Poster Color Set,Art Supplies,Marie,6500,9200,10,8,Mandalay Art Supply,true
+77,Charcoal Pencil Set,Art Supplies,Derwent,5000,7600,5,6,Mandalay Art Supply,true
+78,Kneaded Eraser,Art Supplies,Faber Castell,1800,2800,13,8,Yangon Art Center,true
+79,Drawing Compass,Art Supplies,Maped,2800,4200,12,10,Yangon School Supplies,true
+80,Art Knife,Art Supplies,Deli,3000,4800,7,8,Yangon Art Center,true
+81,Pencil Case,Accessories,Deli,2500,4000,30,15,Yangon School Supplies,true
+82,Eraser White,Accessories,Faber Castell,300,500,80,30,Yangon School Supplies,true
+83,Eraser Black,Accessories,Faber Castell,400,700,26,25,Yangon School Supplies,true
+84,Ruler 12 Inch,Accessories,Maped,600,1000,16,20,Mandalay Office Mart,true
+85,Ruler 6 Inch,Accessories,Maped,400,800,36,20,Mandalay Office Mart,true
+86,Correction Tape,Accessories,Tombow,1800,2800,11,15,Yangon Stationery Supply,true
+87,Correction Pen,Accessories,Tombow,1500,2400,19,15,Yangon Stationery Supply,true
+88,Name Tag Holder,Accessories,Deli,1200,2000,23,15,Yangon Office Depot,true
+89,Lanyard Plain,Accessories,Local Brand,800,1500,42,20,Yangon Office Depot,true
+90,ID Card Sleeve,Accessories,Local Brand,500,900,14,20,Yangon Office Depot,true
+91,Document File Clear,Accessories,Deli,900,1500,65,25,Yangon School Supplies,true
+92,Document File Button,Accessories,Deli,1100,1800,28,20,Yangon School Supplies,true
+93,Lever Arch File,Accessories,Deli,3500,5200,12,12,Mandalay Office Mart,true
+94,Ring Binder,Accessories,Deli,2800,4500,15,12,Mandalay Office Mart,true
+95,Clipboard,Accessories,Deli,2500,3800,9,10,Yangon Office Depot,true
+96,Desk Organizer,Accessories,Deli,6500,9500,6,8,Yangon Office Depot,true
+97,Book Cover Roll,Accessories,Local Brand,1800,2800,18,15,Yangon School Supplies,true
+98,School Bag Tag,Accessories,Local Brand,500,1000,34,20,Yangon School Supplies,true
+99,Whiteboard Eraser,Accessories,Local Brand,1500,2500,13,15,Yangon Office Depot,true
+100,USB Flash Drive 16GB,Accessories,Kingston,8500,12000,10,8,Mandalay Office Mart,true
+101,USB Flash Drive 32GB,Accessories,Kingston,12000,16500,7,8,Mandalay Office Mart,true
+102,Mouse Pad,Accessories,Local Brand,1800,3000,21,15,Yangon Office Depot,true
+103,Laminating Pouch A4,Office Tools,GBC,5000,7500,8,10,Yangon Office Depot,true
+104,Laminating Pouch ID,Office Tools,GBC,2500,4000,14,10,Yangon Office Depot,true
+105,File Tray Single,Office Tools,Deli,4500,6800,9,8,Mandalay Office Mart,true
+106,File Tray Triple,Office Tools,Deli,9000,13000,4,6,Mandalay Office Mart,true
+107,Cash Receipt Roll,Paper,Local Brand,700,1200,55,30,Yangon Paper World,true
+108,Thermal Paper Roll,Paper,Local Brand,900,1500,18,25,Yangon Paper World,true
+109,Notebook Premium,Paper,Moleskine,18000,25000,3,5,Yangon Stationery Supply,true
+110,Planner Monthly,Paper,Local Brand,4500,6800,12,10,Yangon Stationery Supply,true
+111,Planner Weekly,Paper,Local Brand,4200,6500,8,10,Yangon Stationery Supply,true
+112,Calligraphy Pen,Writing,Pilot,3500,5200,6,8,Yangon Art Center,true
+113,Brush Pen Black,Writing,Tombow,3200,5000,9,8,Yangon Art Center,true
+114,Brush Pen Color Set,Writing,Tombow,15000,22000,4,5,Yangon Art Center,true
+115,Desk Bell,Office Tools,Local Brand,3500,5500,5,6,Yangon Office Depot,true
+116,Money Clip Pack,Office Tools,Local Brand,1200,2000,20,12,Yangon Office Depot,true
+117,Gift Wrap Paper,Paper,Local Brand,1000,1800,30,15,Mandalay Paper House,true
+118,Ribbon Roll,Accessories,Local Brand,1500,2500,17,15,Mandalay Paper House,true
+119,Old Stock Folder,Accessories,Local Brand,1000,1600,0,5,Yangon Stationery Supply,false
+120,Discontinued Ink Pad,Office Tools,Shiny,1500,2200,2,5,Yangon Office Depot,false
