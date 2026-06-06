@@ -30,9 +30,10 @@ Recommended order:
 1. [computer-science-basics.md](computer-science-basics.md)
 2. [linux-command-line.md](linux-command-line.md)
 3. [git-and-github.md](git-and-github.md)
-4. [json-csv-parquet.md](json-csv-parquet.md)
-5. [api-basics.md](api-basics.md)
-6. [docker-basics.md](docker-basics.md)
+4. [git-project-publishing-workflow.md](git-project-publishing-workflow.md)
+5. [json-csv-parquet.md](json-csv-parquet.md)
+6. [api-basics.md](api-basics.md)
+7. [docker-basics.md](docker-basics.md)
 
 Beginner project: [CSV To PostgreSQL](../17-projects/beginner/01-csv-to-postgres/)
 
