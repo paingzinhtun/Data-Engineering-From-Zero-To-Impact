@@ -9,7 +9,7 @@ Start here if you are new to Data Engineering or if you want a clean portfolio f
 | Project | Focus | Best For |
 | --- | --- | --- |
 | `01-csv-to-postgres` | CSV to PostgreSQL product catalog loading | First database loading project |
-| `02-api-to-csv` | API extraction and JSON-to-CSV flow | Learning API basics |
+| `02-api-to-csv` | Myanmar weather API extraction to CSV | Learning API basics |
 | `03-sql-sales-analysis` | SQL business analysis | Practicing joins, aggregations, and reporting |
 | `04-retail-sales-pipeline` | Beginner production-style ETL | Combining Python, SQL, PostgreSQL, Docker, tests, and quality checks |
 
