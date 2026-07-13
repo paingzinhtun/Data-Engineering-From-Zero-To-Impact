@@ -52,7 +52,28 @@ If you are new to the repository, use this order:
 5. Use [18-templates/](18-templates/) to document your work professionally.
 6. When you finish a project, improve it with data quality, production notes, and business impact.
 
+Do not measure progress by pages read. Use the [Learning and Evidence System](LEARNING-SYSTEM.md) to produce one verifiable artifact every week, and use the [Business Impact Scorecard](18-templates/business-impact-scorecard.md) before calling a project complete.
+
 Recommended first project: [17-projects/beginner/04-retail-sales-pipeline/](17-projects/beginner/04-retail-sales-pipeline/).
+
+## The Core Learning Loop
+
+Every module and project should move through the same professional loop:
+
+1. **Frame** — identify the user, decision, pain, constraints, and measurable outcome.
+2. **Build** — create the smallest end-to-end data flow that produces a useful output.
+3. **Verify** — test correctness, freshness, completeness, security, and rerun behavior.
+4. **Operate** — observe a run, investigate a failure, backfill safely, and write a runbook.
+5. **Explain** — communicate architecture, tradeoffs, cost, limitations, and business value.
+6. **Improve** — use evidence and feedback to choose the next change.
+
+This loop is deliberately tool-independent. It is the durable skill behind SQL, Python, dbt, Airflow, Spark, Kafka, cloud platforms, and AI systems.
+
+## AI-Age Positioning
+
+AI can generate SQL and pipeline code. The durable value of a Data Engineer is therefore moving upward: framing the right problem, understanding source semantics, designing trustworthy interfaces, evaluating outputs, operating systems, governing access, and making sound tradeoffs.
+
+Use [AI-Era Data Engineering](AI-ERA-DATA-ENGINEERING.md) for the future-proof capability model, reference architecture, and rules for using AI without outsourcing judgment.
 
 ## Choose Your Path
 
