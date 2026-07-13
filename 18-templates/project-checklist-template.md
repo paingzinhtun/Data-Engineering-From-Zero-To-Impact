@@ -2,6 +2,8 @@
 
 Use this checklist before calling a data engineering project complete.
 
+This checklist tests completeness. Use the [business impact scorecard](business-impact-scorecard.md) separately to evaluate evidence, judgment, and value.
+
 ## 1. Problem Clarity
 
 - [ ] The business problem is clearly stated.
