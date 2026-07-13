@@ -8,6 +8,10 @@ This project follows a simple changelog format during its early foundation stage
 
 ### Added
 
+- Learning and evidence system with a weekly operating rhythm, competency gates, project evidence requirements, and mastery criteria.
+- AI-era Data Engineering guide covering durable skills, governed data products, responsible AI-assisted engineering, and architecture decision tests.
+- Business impact scorecard for evaluating problem clarity, reliability, judgment, communication, and measurable value.
+- Root, roadmap, project, and checklist navigation connecting learners to the new execution and impact system.
 - Initial repository documentation foundation.
 - Project mission, learning philosophy, learning paths, and featured project direction in `README.md`.
 - Stage-by-stage Data Engineering roadmap in `ROADMAP.md`.
