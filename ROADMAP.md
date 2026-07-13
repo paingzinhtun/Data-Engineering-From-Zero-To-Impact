@@ -2,6 +2,8 @@
 
 This roadmap is a staged path from beginner to professional Data Engineering capability. It is designed to be practical, project-driven, and focused on business impact.
 
+Use this roadmap together with the [Learning and Evidence System](LEARNING-SYSTEM.md). Stages describe what to study; evidence gates determine whether you can apply it. In the AI age, follow the capability model in [AI-Era Data Engineering](AI-ERA-DATA-ENGINEERING.md).
+
 The stages are ordered intentionally. Later tools and architectures make more sense when the fundamentals are already clear.
 
 ## Stage 0: Orientation and Environment
