@@ -39,6 +39,8 @@ Recommended order:
 
 Use [../18-templates/project-checklist-template.md](../18-templates/project-checklist-template.md) before calling a project complete.
 
+Then score it with the [business impact scorecard](../18-templates/business-impact-scorecard.md). A working pipeline is an engineering milestone; a project becomes impactful when it supports a real decision and the value is measured or tested as an explicit hypothesis.
+
 ## Navigation
 
 Previous: [16 - Business Use Cases](../16-business-use-cases/)  
